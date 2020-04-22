@@ -4,9 +4,9 @@ import android.util.Log
 
 class Human: Animal, Thinkable {
 
-    var hobby: String = "人生"
+    var hobby: String
 
-    constructor(name: String, age: Int): super(name, age){
+    constructor(name: String, age: Int, hobby: String): super(name, age){
     }
 
     override fun say() {
