@@ -14,6 +14,9 @@ class MainActivity : AppCompatActivity() {
         val human2 = Human("ポチ", 3, "哲学")
 
         human1.say()
+        human1.think()
+
+        human2.say()
         human2.think()
     }
 }
